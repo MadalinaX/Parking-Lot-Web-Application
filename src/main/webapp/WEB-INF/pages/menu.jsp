@@ -20,7 +20,7 @@ eq '/about.jsp' ? ' active' : ''}" aria-current="page" href="${pageContext.reque
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="${pageContext.request.contextPath}/Login"</li>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/Login"
                 </li>
             </ul>
         </div>

@@ -12,6 +12,9 @@
 <jsp:include page="/WEB-INF/pages/menu.jsp" />
 <main class="container-fluid mt-5">
 <jsp:doBody/>
-    <main/>
+    </main>
+    <footer>
+        <jsp:include page="/WEB-INF/pages/footer.jsp" />
+            </footer>
 </body>
 </html>
