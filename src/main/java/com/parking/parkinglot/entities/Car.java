@@ -51,4 +51,8 @@ public class Car {
     public void setOwner(User owner) {
         this.owner = owner;
     }
+
+    public String getLicensePlate() {
+        return licensePLate;
+    }
 }
